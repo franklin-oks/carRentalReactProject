@@ -16,7 +16,7 @@ const Commitment = () => {
         <img
           src="https://images.unsplash.com/photo-1625047509252-ab38fb5c7343?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="car"
-          className="md:size-[25rem] lg:h-[36rem] md:flex-1 rounded-4xl flex-1 object-cover"
+          className="md:size-[25rem] lg:h-[36rem] md:flex-1 h-[25rem] w-[25rem] rounded-4xl object-cover"
         />
         <div
           className={`flex flex-col space-y-5 md:space-y-4 lg:space-y-12 flex-1 p-4 pt-10 md:pt-6 lg:p-10 ${

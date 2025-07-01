@@ -17,7 +17,7 @@ const Questions = () => {
           <img
             src="https://plus.unsplash.com/premium_photo-1683134240084-ba074973f75e?q=80&w=995&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="car"
-            className="flex-1 rounded-2xl md:size-[40rem] lg:h-[50rem] lg:w-[50rem] object-cover"
+            className="h-[25rem] w-[25rem] rounded-2xl md:size-[40rem] lg:h-[50rem] lg:w-[50rem] object-cover"
           />
         </div>
 

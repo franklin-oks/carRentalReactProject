@@ -26,17 +26,17 @@ const Team = () => {
         <img
           src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="me"
-          className="flex-1 md:flex-0  object-cover w-[40rem]  h-[40rem]  rounded-3xl"
+          className="md:flex-0  object-cover w-[25rem]  h-[25rem] lg:w-[40rem] lg:h-[40rem]  rounded-3xl"
         />
         <img
           src={me}
           alt="me"
-          className="flex-1 md:flex-0  object-cover w-[40rem]  h-[40rem] rounded-3xl"
+          className="md:flex-0  object-cover w-[25rem]  h-[25rem] lg:w-[40rem] lg:h-[40rem] rounded-3xl"
         />
         <img
           src="https://images.unsplash.com/photo-1684272672218-49205e315a03?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="image"
-          className="flex-1 md:flex-0  object-cover w-[40rem]  h-[40rem] rounded-3xl"
+          className="md:flex-0  object-cover w-[25rem]  h-[25rem] lg:w-[40rem] lg:h-[40rem] rounded-3xl"
         />
       </div>
       {open ? (
@@ -44,17 +44,17 @@ const Team = () => {
           <img
             src="https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="me"
-            className="flex-1 md:flex-0  object-cover w-[40rem]  h-[40rem]  rounded-3xl"
+            className="md:flex-0  object-cover w-[25rem]  h-[25rem] lg:w-[40rem] lg:h-[40rem]  rounded-3xl"
           />
           <img
             src="https://images.unsplash.com/photo-1713946598467-fcf9332c56ea?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="me"
-            className="flex-1 md:flex-0  object-cover w-[40rem]  h-[40rem] md:s-4 rounded-3xl"
+            className="md:flex-0  object-cover w-[25rem]  h-[40rem] lg:w-[40rem] lg:h-[40rem] md:s-4 rounded-3xl"
           />
           <img
             src="https://plus.unsplash.com/premium_photo-1681823111313-60e82cbd7f32?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="image"
-            className="flex-1 md:flex-0  object-cover w-[40rem]  h-[40rem] md:s-4 rounded-3xl"
+            className="md:flex-0  object-cover w-[25rem]  h-[25rem] lg:w-[40rem] lg:h-[40rem] md:s-4 rounded-3xl"
           />
         </div>
       ) : null}

@@ -41,7 +41,7 @@ const OurStand = () => {
       <img
         src="https://images.unsplash.com/photo-1562911791-c7a97b729ec5?q=80&w=937&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="car"
-        className="md:w-[10rem] md:flex-1 rounded-4xl"
+        className="md:w-[10rem] md:flex-1 rounded-4xl h-[25rem] w-[25rem] object-cover lg:w-[40rem] lg:h-[40rem]"
       />
     </section>
   );

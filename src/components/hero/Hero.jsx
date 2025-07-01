@@ -14,7 +14,7 @@ const Hero = () => {
             <span className="text-yellow-400">Buy</span> or{" "}
             <span className="text-yellow-400">Rent</span> Your Dream Car
           </h1>
-          <p className="text-white text-md text-center md:text-lg lg:text-xl lg:w-1/2 lg:ml-[32rem]">
+          <p className="text-white p-4 text-md text-center md:text-lg lg:text-xl lg:w-1/2 lg:ml-[32rem]">
             explore this exclusive good cars and get a discount on a huge
             purchase. enjoy the luxury of licenced and qualified drivers when
             you hire our cars. we give a huge discount on all purchase, hire and
@@ -58,7 +58,7 @@ const Hero = () => {
         <img
           src={jeep}
           alt="car"
-          className="order-1 md:order-2  size-[40rem] md:size-[50rem] object-cover absolute  bottom-[-18rem] p-4 lg:ml-[45rem] lg:w-[55rem] lg:pt-15"
+          className="order-1 md:order-2  h-[25rem] w-[25rem] md:size-[50rem] object-cover absolute  bottom-[-9rem] md:bottom-[-20rem] sm:w-[30rem] sm:h-[30rem] lg:bottom-[-20rem] p-4 lg:ml-[45rem] lg:w-[55rem] lg:pt-15"
         />
         <img
           src={play}
